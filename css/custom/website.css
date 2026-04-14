@@ -1,8 +1,6 @@
-/*** Google Web Fonts - START ***/
+/*** Fonts ***/
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
-
-/*** Google Web Fonts - END ***/
+@import url('https://fonts.bunny.net/css?family=source-sans-pro:400,600,700&display=swap');
 
 body {
     font-size: 110%;
