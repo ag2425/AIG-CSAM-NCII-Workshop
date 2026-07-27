@@ -73,3 +73,59 @@ table th {
 table td {
     border: 1px solid #e8e8e8;
 }
+
+/* Organizers */
+.organizers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 25px 0 30px;
+}
+.organizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 170px;
+}
+.organizer-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.08);
+}
+.organizer-photo-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    color: #6c757d;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.organizer-affiliation {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Keynote speaker */
+.keynote-speaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    margin: 25px 0 30px;
+}
+.keynote-photo {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.08);
+}
